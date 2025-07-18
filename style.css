@@ -1,0 +1,36 @@
+#portfolio {
+  background: #fff;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+#portfolio h2, #portfolio h3 {
+  color: #5a2a82;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background: #e0d4f7;
+  color: #33144f;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.projects {
+  margin-top: 10px;
+}
+
+.project {
+  background: #f4f2f7;
+  border-left: 4px solid #5a2a82;
+  padding: 10px;
+  margin-bottom: 10px;
+}
