@@ -1,4 +1,4 @@
-# ⚡ getsmandy.in — Cybersecurity Portfolio
+# ⚡ getsmandy.in — Portfolio
 
 This is my space to share what I learn, break, fix, and teach.
 
