@@ -1,11 +1,22 @@
-# getsmandy-site
+# ⚡ getsmandy.in — Cybersecurity Portfolio
 
-**Personal portfolio and blog of Mandy** – _Information Security Analyst_, _Microsoft Security Learner_.
+This is my space to share what I learn, break, fix, and teach.
 
-This website showcases:
-- 🔐 **Cybersecurity expertise** – including Threat Hunting, Detection Engineering, and Incident Response.
-- 🛠️ Hands-on work with Microsoft security tools: _Sentinel_, _Defender for Endpoint_, and _Azure Security_.
-- ✍️ Regular blog posts on InfoSec topics and career reflections.
+## 🛠 What I Do
+- InfoSec Analyst | Threat Hunter | Detection Engineer
+- Microsoft Security Practitioner – SC-100 | SC-200 | AZ-500
+- Mentor for young cybersecurity learners
 
-🔗 Visit the live site: [https://getsmandy.in](https://getsmandy.in)
+## 🧠 Blog Highlights
+- _Building a Home SOC Lab on a Budget_
+- _KQL Recipes for Threat Detection_
+- _Lessons from Real-World Incidents_
+> “The SOC is like a war room. Every alert tells a story.”
+
+> “Learning Defender for Endpoint was a game-changer.”
+
+## 🔗 Links
+- **Portfolio**: [getsmandy.in](https://getsmandy.in)
+- **GitHub**: [github.com/Manish041998](https://github.com/Manish041998)
+
 
