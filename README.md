@@ -13,8 +13,6 @@ This is my space to share what I learn, break, fix, and teach.
 - _Lessons from Real-World Incidents_
 > “The SOC is like a war room. Every alert tells a story.”
 
-> “Learning Defender for Endpoint was a game-changer.”
-
 ## 🔗 Links
 - **Portfolio**: [getsmandy.in](https://getsmandy.in)
 - **GitHub**: [github.com/Manish041998](https://github.com/Manish041998)
