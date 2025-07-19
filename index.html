@@ -3,24 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Sai Mansih | Portfolio</title>
+  <title>Sai Manish | Portfolio</title>
+
+  <!-- SEO -->
   <meta name="description" content="Sai Manish is a cybersecurity analyst based in Bangalore. SC-100, SC-200, AZ-500 certified with expertise in threat hunting and malware analysis.">
   <meta name="keywords" content="Sai Manish, cybersecurity, threat hunting, malware analysis, SC-100, AZ-500, Bangalore, infosec, Microsoft security, SOC analyst">
   <meta name="author" content="Sai Manish">
+
+  <!-- Styles -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+
   <style>
     html { scroll-behavior: smooth; }
+    .gradient-text {
+      background: linear-gradient(to right, #06b6d4, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: pulse 3s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.8; }
+    }
   </style>
 </head>
+
 <body class="text-white bg-gray-900">
   <!-- Hero Section -->
   <section class="relative h-screen flex flex-col items-center justify-center text-center px-6">
     <img src="69.JPG" alt="Background" class="absolute inset-0 w-full h-full object-cover z-0" />
     <div class="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
     <div class="relative z-10">
-      <h1 class="text-5xl md:text-7xl font-bold mb-4">Sai Manish</h1>
+      <h1 class="text-5xl md:text-7xl font-bold mb-4 gradient-text">Sai Manish</h1>
       <p class="text-xl md:text-2xl font-medium">Information Security Specialist | Threat Hunter | Detection Engineer</p>
       <p class="mt-4 text-sm text-gray-300">
         <i class="fas fa-map-marker-alt mr-2 text-red-400"></i>Bangalore, India
@@ -30,7 +48,7 @@
           <i class="fas fa-envelope mr-2 text-blue-300"></i>saimanish041998@gmail.com
         </a>
       </div>
-      <div class="mt-6 w-full flex justify-center">
+      <div class="mt-6 flex justify-center">
         <div class="flex flex-wrap justify-center gap-6 text-lg">
           <a href="https://linkedin.com/in/sai-m-721384221" target="_blank">LinkedIn</a>
           <a href="https://github.com/Manish041998" target="_blank">GitHub</a>
@@ -42,11 +60,23 @@
   </section>
 
   <!-- Scroll cue -->
-  <div class="text-center mt-[-3rem]">
+  <div class="text-center -mt-10">
     <a href="#about" class="text-sm text-gray-400 hover:text-white">▼ Scroll Down</a>
   </div>
 
   <!-- About Section -->
-  <section id="about" class="py-20 px-6 max-w-4xl mx-auto">
+  <section id="about" class="py-20 px-6 max-w-4xl mx-auto" data-aos="fade-up">
     <h2 class="text-3xl font-bold mb-4 border-b border-gray-600 pb-2">About Me</h2>
-    <p class="text-lg leading-relaxed text-gray-300"
+    <p class="text-lg leading-relaxed text-gray-300">
+      Experienced Cybersecurity Analyst with over 3.5 years specializing in threat detection, incident response,
+      penetration testing, and vulnerability management. Adept in utilizing advanced security tools including SIEM (Microsoft Sentinel,
+      Elastic), XDR platforms (Microsoft Defender, CrowdStrike), and malware analysis tools. Proven track record in
+      enhancing security postures, conducting effective training, and running phishing simulations.
+    </p>
+  </section>
+
+  <!-- Scroll Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
